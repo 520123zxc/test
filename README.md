@@ -1,16 +1,5 @@
 # Js-Report-Reporting-API
 
-
-## Introduction
-
-This Js-Report Reporting API provide publishers a real-time access to a variety of data. Publishers can retrieve ad performance reporting programmatically. To access this API, you will need to perform the following steps:
-
-1.	Become an Adxmi publisher.
-
-2.	Integrate Adxmi Js on your application.
-
-3.	Make appropriate calls to the API endpoints.
-
 *The API is only accessible by HTTP GET and returns data in JSON format.
 
 ## API Request
