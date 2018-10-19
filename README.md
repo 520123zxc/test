@@ -22,7 +22,7 @@ http://report-api.nemoka.com/report
 ### Request Parameter
 
 | Parameter   | Type   | Mandatory | Example     |Description    |
-|:-------------:|:--------:|:-----------:|:-------------------------:|:------------------------------------------------------------------------------------------------------------------:|
+|-------------|--------|-----------|-------------------------|------------------------------------------------------------------------------------------------------------------|
 | token      | string | Y         | token=we2917n2is61o92s72m0d71bd9am37xj |Unique token to access Js Report API.                                                                        |
 | start_date   | string( format %Y-%m-%d )    | Y         | start_date=2018-10-17          |Assign the start date to retrieve report.           |
 | end_dt | string( format %Y-%m-%d ) | Y         | end_dt=2018-10-18         |Assign the end date to retrieve report.  | 
@@ -40,7 +40,7 @@ http://report-api.nemoka.com/report?token=we2917n2is61o92s72m0d71bd9am37xj9&star
 ## Response Field
 
 | Parameter | Type | Description |
-|: ---- :|: ---- :|: ---- :|
+| ---- | ---- | ---- |
 | code | int | Response status code.|
 | msg  | int | Response description. |
 | data |  arrray  | query data array, item is dict. sample[{Impression:10,Clicks: 1,Revenue: 10}] |
